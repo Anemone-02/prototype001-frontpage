@@ -1,0 +1,69 @@
+body {
+  font-family: 'Philosopher', sans-serif;
+  margin: 30px 30px 0 30px;
+  background-color: #d6f5fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  text-align: justify;
+}
+.main {
+  flex: 1;
+
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 25px;
+  margin-bottom: 105px;
+}
+
+#span {
+  color: purple;
+}
+
+.tile-image {
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+  color: #F4989C
+}
+
+.card {
+  width: 45%;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+footer {
+  clear:both;
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (max-width:600px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+}
